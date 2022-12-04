@@ -90,14 +90,14 @@ function Iniciars() {
         setCorreo("");
         setContrasenia("");
         console.log("Login correcto");
-        navigate('https://eduardovarela0144.github.io/mtb_cliente/DashboardUsers');
+        navigate('/DashboardUsers');
 
       }
       else if (res.status === 201) {
         setCorreo("");
         setContrasenia("");
         console.log("Login sin privilegios");
-        navigate('https://eduardovarela0144.github.io/mtb_cliente/Inicio');
+        navigate('/Inicio');
 
       } else {
         console.log("Ocurrio un error al hacer login")

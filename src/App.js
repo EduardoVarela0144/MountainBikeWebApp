@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/mtb_cliente/" element={<Login />} />
         <Route path="/Acerca" element={<Acerca />} />
         <Route path="/Inicio" element={<Inicio />} />
         <Route path="/Trails" element={<Trails />} />

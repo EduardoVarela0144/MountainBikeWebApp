@@ -20,14 +20,14 @@ function App() {
     <>
       <Routes>
         <Route path="https://eduardovarela0144.github.io/mtb_cliente/" element={<Login />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/Acerca" element={<Acerca />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/Inicio" element={<Inicio />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/Trails" element={<Trails />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/Blog" element={<Blog />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/Galeria" element={<Galeria />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/DashboardUsers" element={<DashboardUsers />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/DashboardCom" element={<DashboardCom />} />
-        <Route path="https://eduardovarela0144.github.io/mtb_cliente/DashboardRoles" element={<DashboardRoles />} />  
+        <Route path="Acerca" element={<Acerca />} />
+        <Route path="Inicio" element={<Inicio />} />
+        <Route path="Trails" element={<Trails />} />
+        <Route path="Blog" element={<Blog />} />
+        <Route path="Galeria" element={<Galeria />} />
+        <Route path="DashboardUsers" element={<DashboardUsers />} />
+        <Route path="DashboardCom" element={<DashboardCom />} />
+        <Route path="DashboardRoles" element={<DashboardRoles />} />  
         <Route path="/*" element={<Notfound />} />
       </Routes>
     </>

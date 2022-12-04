@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/mtb_cliente/static/css/main.724d066c.css",
+    "main.js": "/mtb_cliente/static/js/main.b41099d9.js",
+    "static/media/fa-solid-900.svg": "/mtb_cliente/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/mtb_cliente/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/Fiestas.jpg": "/mtb_cliente/static/media/Fiestas.eec2d257a268bebdd97b.jpg",
+    "static/media/Inicio_3.jpg": "/mtb_cliente/static/media/Inicio_3.b59d45dd08545acc3648.jpg",
+    "static/media/Cultura.jpg": "/mtb_cliente/static/media/Cultura.be5b0ef86e57845fdd5a.jpg",
+    "static/media/WO.jpg": "/mtb_cliente/static/media/WO.1760f7af43a7284fea58.jpg",
+    "static/media/Inicio_1.jpg": "/mtb_cliente/static/media/Inicio_1.27c70872505265283122.jpg",
+    "static/media/Marcelo_1.jpg": "/mtb_cliente/static/media/Marcelo_1.8965b8064e26a158a437.jpg",
+    "static/media/Ixtepeji.jpg": "/mtb_cliente/static/media/Ixtepeji.7431a3552f824115ac5b.jpg",
+    "static/media/Inicio_2.jpg": "/mtb_cliente/static/media/Inicio_2.8b197c7cea4080a8549a.jpg",
+    "static/media/fa-solid-900.eot": "/mtb_cliente/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/mtb_cliente/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/Marcelo_2.jpg": "/mtb_cliente/static/media/Marcelo_2.a9c89a2f35baa46d9e99.jpg",
+    "static/media/fa-regular-400.svg": "/mtb_cliente/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/San_Felipe.jpg": "/mtb_cliente/static/media/San_Felipe.ff121595513331b21e86.jpg",
+    "static/media/fa-brands-400.eot": "/mtb_cliente/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/mtb_cliente/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/Monte_Alban.jpg": "/mtb_cliente/static/media/Monte_Alban.e898860efce9d01fdbe8.jpg",
+    "static/media/fa-solid-900.woff": "/mtb_cliente/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/mtb_cliente/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/San_Pablo.jpg": "/mtb_cliente/static/media/San_Pablo.925571edf75ed74e9956.jpg",
+    "static/media/fa-solid-900.woff2": "/mtb_cliente/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/mtb_cliente/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/Valentina.jpg": "/mtb_cliente/static/media/Valentina.1c63d2b5c16543e89286.jpg",
+    "static/media/fa-regular-400.eot": "/mtb_cliente/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/mtb_cliente/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/mtb_cliente/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/mtb_cliente/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/mtb_cliente/index.html",
+    "main.724d066c.css.map": "/mtb_cliente/static/css/main.724d066c.css.map",
+    "main.b41099d9.js.map": "/mtb_cliente/static/js/main.b41099d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.724d066c.css",
+    "static/js/main.b41099d9.js"
+  ]
+}

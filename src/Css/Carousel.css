@@ -1,0 +1,217 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+
+
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 285px;
+
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Botones del slider principal*/
+.btnp {
+  background-color: #3DC814;
+  border: none;
+  border-radius: 7px;
+  color:white;
+  text-decoration: none;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.btnp:hover {
+  background-color: #38B213;
+  color: white;
+}
+
+.btnp-l {
+  background-color: #3DC814;
+  border: none;
+  border-radius: 7px;
+  color:white;
+  text-decoration: none;
+  height: 40px;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.btnp-l:hover {
+  background-color: #38B213;
+  color: white;
+}
+
+/* Botones que llevan a rutas */
+.btn-secondary {
+  background-color: #3DC814;
+  border-color: #3DC814;
+}
+
+.btn-secondary:hover {
+  background-color: #38B213;
+  border-color: #38B213;
+}
+
+/* Nav */
+
+.nav-item :hover {
+  border-bottom: 3px solid #3DC814;
+}
+.nav-link  {
+  border-bottom: 3px solid #212529;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.featurette-heading {
+  margin-top: 0;
+}
+
+/* Boton de mas */
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	background-color:#3DC814;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  border: none;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border:1px solid #bde0b2;
+  box-shadow: 0 0 10px #bde0b2;
+}
+
+#fname:focus{
+  outline: none !important;
+  border:1px solid #bde0b2;
+  box-shadow: 0 0 10px #bde0b2;
+}
+
+#lpais:focus{
+  outline: none !important;
+  border:1px solid #bde0b2;
+  box-shadow: 0 0 10px #bde0b2;
+}
+#lape:focus{
+  outline: none !important;
+  border:1px solid #bde0b2;
+  box-shadow: 0 0 10px #bde0b2;
+}
+#subject:focus{
+  outline: none !important;
+  border:1px solid #bde0b2;
+  box-shadow: 0 0 10px #bde0b2;
+}
+.btn-close:focus{
+  box-shadow: 0 0 15px #bde0b2;
+}
+
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #3DC814;
+}

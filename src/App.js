@@ -20,15 +20,15 @@ function App() {
     <>
       <Routes>
         <Route exact path="#/" element={<Login />} />
-        <Route path="#/Acerca" element={<Acerca />} />
-        <Route path="#/Inicio" element={<Inicio />} />
-        <Route path="#/Trails" element={<Trails />} />
-        <Route path="#/Blog" element={<Blog />} />
-        <Route path="#/Galeria" element={<Galeria />} />
-        <Route path="#/DashboardUsers" element={<DashboardUsers />} />
-        <Route path="#/DashboardCom" element={<DashboardCom />} />
-        <Route path="#/DashboardRoles" element={<DashboardRoles />} />  
-        <Route path="#/*" element={<Notfound />} />
+        <Route path="/Acerca" element={<Acerca />} />
+        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/Trails" element={<Trails />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/Galeria" element={<Galeria />} />
+        <Route path="/DashboardUsers" element={<DashboardUsers />} />
+        <Route path="/DashboardCom" element={<DashboardCom />} />
+        <Route path="/DashboardRoles" element={<DashboardRoles />} />  
+        <Route path="/*" element={<Notfound />} />
       </Routes>
     </>
   );

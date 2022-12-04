@@ -12,22 +12,22 @@ function Navb() {
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Inicio'>Inicio</a>
+                <a className="nav-link" aria-current="page" href='/Inicio'>Inicio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Galeria'>Galeria</a>
+                <a className="nav-link" aria-current="page" href='/Galeria'>Galeria</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Acerca'>Acerca</a>
+                <a className="nav-link" aria-current="page" href='/Acerca'>Acerca</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Trails'>Trails</a>
+                <a className="nav-link" aria-current="page" href='/Trails'>Trails</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Blog'>Blog</a>
+                <a className="nav-link" aria-current="page" href='/Blog'>Blog</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/'>Salir</a>
+                <a className="nav-link" aria-current="page" href='/'>Salir</a>
               </li>
               
             </ul>

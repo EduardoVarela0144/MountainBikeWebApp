@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="#/" element={<Login />} />
+        <Route exact path="/" element={<Login />} />
         <Route path="/Acerca" element={<Acerca />} />
         <Route path="/Inicio" element={<Inicio />} />
         <Route path="/Trails" element={<Trails />} />

@@ -18,7 +18,7 @@ function Navb() {
                 <a className="nav-link" aria-current="page" href='/Galeria'>Galeria</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href='#/Acerca'>Acerca</a>
+                <a className="nav-link" aria-current="page" href='/Acerca'>Acerca</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href='/Trails'>Trails</a>

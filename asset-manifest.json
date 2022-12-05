@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mtb_cliente/static/css/main.724d066c.css",
-    "main.js": "/mtb_cliente/static/js/main.b71b8ebe.js",
+    "main.js": "/mtb_cliente/static/js/main.9d24ee66.js",
     "static/media/fa-solid-900.svg": "/mtb_cliente/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/mtb_cliente/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/Fiestas.jpg": "/mtb_cliente/static/media/Fiestas.eec2d257a268bebdd97b.jpg",
@@ -32,10 +32,10 @@
     "static/media/fa-regular-400.woff2": "/mtb_cliente/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/mtb_cliente/index.html",
     "main.724d066c.css.map": "/mtb_cliente/static/css/main.724d066c.css.map",
-    "main.b71b8ebe.js.map": "/mtb_cliente/static/js/main.b71b8ebe.js.map"
+    "main.9d24ee66.js.map": "/mtb_cliente/static/js/main.9d24ee66.js.map"
   },
   "entrypoints": [
     "static/css/main.724d066c.css",
-    "static/js/main.b71b8ebe.js"
+    "static/js/main.9d24ee66.js"
   ]
 }

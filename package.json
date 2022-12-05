@@ -1,7 +1,7 @@
 {
   "name": "mtb_cliente",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage":"https://eduardovarela0144.github.io/mtb_cliente",
   "dependencies": {
     "@emotion/react": "^11.10.5",

@@ -91,13 +91,14 @@ function Iniciars() {
         setContrasenia("");
         console.log("Login correcto");
         //navigate('/DashboardUsers');
-        window.location = 'https://github.com/EduardoVarela0144/mtb_cliente/settings/pages';
+        window.location = 'https://eduardovarela0144.github.io/mtb_cliente/#/DashboardUsers';
 
       }
       else if (res.status === 201) {
         setCorreo("");
         setContrasenia("");
         console.log("Login sin privilegios");
+        window.location = 'https://eduardovarela0144.github.io/mtb_cliente/#/inicio';
         //navigate('/Inicio');
 
       } else {

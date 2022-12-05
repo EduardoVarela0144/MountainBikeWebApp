@@ -102,6 +102,12 @@ function Iniciars() {
         //navigate('/Inicio');
 
       } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error al iniciar sesión',
+          showConfirmButton: false,
+          timer: 1500
+      })
         console.log("Ocurrio un error al hacer login")
       }
     } catch (err) {

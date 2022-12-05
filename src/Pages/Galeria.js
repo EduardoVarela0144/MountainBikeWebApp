@@ -100,10 +100,11 @@ function Galeria() {
                         {imagenes.map((item) => (
                             <ImageListItem key={item.src}>
                                 <img
-                                    src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
-                                    srcSet={`${item.src}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                                    alt={item.lugar}
-                                    loading="lazy"
+                                    // src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
+                                    // srcSet={`${item.src}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                    // alt={item.lugar}
+                                    // loading="lazy"
+                                    src={item.src}
                                 />
                             </ImageListItem>
                         ))}

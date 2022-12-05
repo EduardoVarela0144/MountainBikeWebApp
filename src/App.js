@@ -28,7 +28,6 @@ function App() {
         <Route  path="/DashboardUsers" element={<DashboardUsers />} />
         <Route  path="/DashboardCom" element={<DashboardCom />} />
         <Route  path="/DashboardRoles" element={<DashboardRoles />} />  
-        <Route  path="/*" element={<Notfound />} />
       </Routes>
     </>
   );

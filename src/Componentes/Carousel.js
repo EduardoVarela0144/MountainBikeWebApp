@@ -62,7 +62,7 @@ function Carousel() {
                             <div className="carousel-caption">
                                 <h1>Conecta con Oaxaca</h1>
                                 <p>Revisa algunas de las opiniones de otros ciclistas.</p>
-                                <p><a className="btnp-l" href="/Blog">Opiniones</a></p>
+                                <p><a className="btnp-l" href="/mtb_cliente/#/Blog">Opiniones</a></p>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ function Carousel() {
                             <div className="carousel-caption">
                                 <h1>Conoce los trails del estado</h1>
                                 <p>Oaxaca cuentas con las mejores pistas en México y el mundo.</p>
-                                <p><a className="btnp-l" href="/Trails">Ver trails</a></p>
+                                <p><a className="btnp-l" href="/mtb_cliente/#/Trails">Ver trails</a></p>
                             </div>
                         </div>
                     </div>

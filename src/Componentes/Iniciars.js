@@ -90,14 +90,14 @@ function Iniciars() {
         setCorreo("");
         setContrasenia("");
         console.log("Login correcto");
-        navigate('/DashboardUsers');
+        navigate('/mtb_cliente/#/DashboardUsers');
 
       }
       else if (res.status === 201) {
         setCorreo("");
         setContrasenia("");
         console.log("Login sin privilegios");
-        navigate('/Inicio');
+        navigate('/mtb_cliente/#/Inicio');
 
       } else {
         console.log("Ocurrio un error al hacer login")

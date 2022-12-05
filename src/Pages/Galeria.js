@@ -32,8 +32,10 @@ function Galeria() {
             .then(resp => resp.json())
             .then(data => {
                 setUrl(data.url)
+                handleSubmit()
             })
             .catch(err => console.log(err))
+        
 
     }
     let handleSubmit = async () => {
@@ -88,11 +90,11 @@ function Galeria() {
                 <Container>
                     <hr style={{ margin: '3.44rem 0' }}></hr>
 
-                    <Button  style={{backgroundColor:'#3DC814'}} onClick={handleSubmit} variant="contained" component="label">
+                    <Button  style={{backgroundColor:'#3DC814'}} onClick={uploadImage} variant="contained" component="label">
                         Subir imagen
                     </Button>
                     <IconButton    aria-label="upload picture" component="label">
-                        <input hidden accept="image/*" type="file" onClick={uploadImage} onChange={(e) => setImage(e.target.files[0])} />
+                        <input hidden accept="image/*" type="file"  onChange={(e) => setImage(e.target.files[0])} />
                         <PhotoCamera />
                     </IconButton>
                     <br /><br />

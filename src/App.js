@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/mtb_cliente" element={<Login />} />
+        <Route  path="/" element={<Login />} />
         <Route  path="/Acerca" element={<Acerca />} />
         <Route  path="/Inicio" element={<Inicio />} />
         <Route  path="/Trails" element={<Trails />} />
@@ -28,6 +28,7 @@ function App() {
         <Route  path="/DashboardUsers" element={<DashboardUsers />} />
         <Route  path="/DashboardCom" element={<DashboardCom />} />
         <Route  path="/DashboardRoles" element={<DashboardRoles />} />  
+        <Route  path="/*" element={<Notfound />} />
       </Routes>
     </>
   );

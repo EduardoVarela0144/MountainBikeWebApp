@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Swal from 'sweetalert2'
 
 
+
 function Galeria() {
     document.title = 'Galeria';
 
@@ -20,6 +21,7 @@ function Galeria() {
     const [url, setUrl] = useState("");
 
     const uploadImage = () => {
+        //document.getElementById('cargando').hidden = false;
         const data = new FormData()
         data.append("file", image)
         data.append("upload_preset", "mtb0144")
@@ -32,10 +34,13 @@ function Galeria() {
             .then(resp => resp.json())
             .then(data => {
                 setUrl(data.url)
-                handleSubmit()
+               
+
+                    handleSubmit()
+                
             })
             .catch(err => console.log(err))
-        
+
 
     }
     let handleSubmit = async () => {
@@ -61,7 +66,7 @@ function Galeria() {
                 console.log("Ocurrio un error")
                 Swal.fire({
                     icon: 'error',
-                    title: 'Debes seleccionar el icono de la cámara para cargar tu imagen',
+                    title: 'Selecciona el icono de la cámara para cargar tu imagen o reintentalo',
                     showConfirmButton: false,
                     timer: 4000
                 })
@@ -89,19 +94,19 @@ function Galeria() {
             <main>
                 <Container>
                     <hr style={{ margin: '3.44rem 0' }}></hr>
-
-                    <Button  style={{backgroundColor:'#3DC814'}} onClick={uploadImage} variant="contained" component="label">
+                    <p id="cargando" hidden>Cargando ... </p>
+                    <Button style={{ backgroundColor: '#3DC814' }} onClick={uploadImage} variant="contained" component="label">
                         Subir imagen
                     </Button>
-                    <IconButton    aria-label="upload picture" component="label">
-                        <input hidden accept="image/*" type="file"  onChange={(e) => setImage(e.target.files[0])} />
+                    <IconButton aria-label="upload picture" component="label">
+                        <input hidden accept="image/*" type="file"   onChange={(e) => setImage(e.target.files[0])} />
                         <PhotoCamera />
                     </IconButton>
                     <br /><br />
                     <ImageList variant="masonry" cols={3} gap={8}>
                         {imagenes.map((item) => (
                             <ImageListItem key={item.src}>
-                                <img
+                                <img alt={item.lugar}
                                     // src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
                                     // srcSet={`${item.src}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                                     // alt={item.lugar}
@@ -111,6 +116,7 @@ function Galeria() {
                             </ImageListItem>
                         ))}
                     </ImageList>
+                    
                     <Divider />
                     <Footer />
                 </Container>

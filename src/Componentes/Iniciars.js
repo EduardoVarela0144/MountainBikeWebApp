@@ -1,12 +1,12 @@
 import '../Css/Login.css';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
 
 function Iniciars() {
   //const activar = "";
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   // Registrar Usuario
   const [correo, setCorreo] = useState("");
   const [usuario, setUsuario] = useState("");
